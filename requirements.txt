@@ -5,3 +5,4 @@ langchain
 PyPDF2
 langchain-community
 langchain_groq
+sentence-transformers
