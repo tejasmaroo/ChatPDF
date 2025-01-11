@@ -2,6 +2,6 @@ llama-index
 chromadb
 streamlit
 langchain
-pypdf
+PyPDF2
 langchain-community
 langchain_groq
