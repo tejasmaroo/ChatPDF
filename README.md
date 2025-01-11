@@ -27,8 +27,8 @@ To set up this project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/tejasmaroo/ChatPDF.git
+   cd ChatPDF
    ```
 
 2. **Create a virtual environment** (optional but recommended):
@@ -67,15 +67,3 @@ The main components of the code include:
 - **Groq Integration**: Setting up a chat model using `ChatGroq` that generates responses based on user queries and context extracted from PDFs.
 
 This README provides a comprehensive overview of how to set up and use the Chat with Groq - Multiple PDFs Demo application, along with key concepts and installation instructions.
-
-Citations:
-[1] https://www.reddit.com/r/Streamlit/comments/13oc9ob/using_streamlit_to_upload_multiple_files_to/
-[2] https://discuss.streamlit.io/t/import-errors/46195
-[3] https://discuss.streamlit.io/t/uploading-multiple-files-with-file-uploader/1445
-[4] https://github.com/dataprofessor/langchain-ask-the-doc/blob/master/streamlit_app.py
-[5] https://stackoverflow.com/questions/77555742/streamlit-dynamically-open-multiple-pdfs-files-in-different-tabs/78068936
-[6] https://api.python.langchain.com/en/latest/chat_models/langchain_groq.chat_models.ChatGroq.html
-[7] https://github.com/petermartens98/OpenAI-LangChain-Multi-PDF-Chat-Bot
-[8] https://python.langchain.com/docs/integrations/chat/groq/
-[9] https://docs.streamlit.io/develop/api-reference/widgets/st.file_uploader
-[10] https://discuss.streamlit.io/t/how-to-upload-a-pdf-file-in-streamlit/2428

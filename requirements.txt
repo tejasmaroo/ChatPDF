@@ -1,0 +1,7 @@
+llama-index
+chromadb
+streamlit
+langchain
+pypdf
+langchain-community
+langchain_groq
