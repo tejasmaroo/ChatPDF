@@ -7,6 +7,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import Chroma
+from langchain.vectorstores import FAISS
 from langchain.schema import Document
 import os
 import time
@@ -49,7 +50,7 @@ if pdf_files:
 
     # Create the vector store using Chroma
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-    vector_store = Chroma.from_documents(documents, embeddings, persist_directory='db_dir')
+    vector_store = FAISS.from_documents(documents, embeddings)
 
     # Set up Groq model
     llm = ChatGroq(groq_api_key=groq_api_key, model_name="mixtral-8x7b-32768")
