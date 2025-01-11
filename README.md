@@ -1,4 +1,4 @@
-# README for Chat with Groq - Multiple PDFs Demo
+# README for Chat PDF
 
 ## Overview
 This project is a Streamlit application that allows users to upload multiple PDF files and interact with them using the Groq language model. The application extracts text from the uploaded PDFs, processes it, and enables users to ask questions based on the content of these documents.
@@ -66,4 +66,4 @@ The main components of the code include:
 - **Vector Store Creation**: Creating embeddings of text chunks using `HuggingFaceEmbeddings` and storing them in Chroma for efficient retrieval.
 - **Groq Integration**: Setting up a chat model using `ChatGroq` that generates responses based on user queries and context extracted from PDFs.
 
-This README provides a comprehensive overview of how to set up and use the Chat with Groq - Multiple PDFs Demo application, along with key concepts and installation instructions.
+This README provides a comprehensive overview of how to set up and use the Chat PDF application, along with key concepts and installation instructions.
