@@ -7,7 +7,7 @@ This project is a Streamlit application that allows users to upload multiple PDF
 
 ## Key Concepts
 - **Retrieval-Augmented Generation (RAG)**: This approach combines retrieval and generation techniques. The application retrieves relevant text chunks from the uploaded PDFs based on user queries and then generates responses using the Groq model.
-- **Vector Store**: The application utilizes a vector store (Chroma) to manage embeddings of text chunks. This allows for efficient retrieval of relevant information when responding to user queries.
+- **Vector Store**: The application utilizes a vector store (faiss) to manage embeddings of text chunks. This allows for efficient retrieval of relevant information when responding to user queries.
 - **Text Splitting**: The application splits the extracted text into manageable chunks using `RecursiveCharacterTextSplitter`, which helps in processing large documents effectively.
 
 ## Flow Diagram
@@ -65,7 +65,7 @@ The main components of the code include:
 
 - **PDF Text Extraction**: Using `PyPDF2` to read and extract text from PDF files.
 - **Text Processing**: Utilizing `RecursiveCharacterTextSplitter` to break down long texts into smaller chunks for better handling.
-- **Vector Store Creation**: Creating embeddings of text chunks using `HuggingFaceEmbeddings` and storing them in Chroma for efficient retrieval.
+- **Vector Store Creation**: Creating embeddings of text chunks using `HuggingFaceEmbeddings` and storing them in faiss for efficient retrieval.
 - **Groq Integration**: Setting up a chat model using `ChatGroq` that generates responses based on user queries and context extracted from PDFs.
 
 This README provides a comprehensive overview of how to set up and use the Chat PDF application, along with key concepts and installation instructions.
