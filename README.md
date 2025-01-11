@@ -1,4 +1,6 @@
-# README for Chat PDF
+# README for Chat PDF 
+
+Deployed on Streamlit: https://chatpdf-fylslwb4mpsvdg6uwidi3b.streamlit.app/
 
 ## Overview
 This project is a Streamlit application that allows users to upload multiple PDF files and interact with them using the Groq language model. The application extracts text from the uploaded PDFs, processes it, and enables users to ask questions based on the content of these documents.
